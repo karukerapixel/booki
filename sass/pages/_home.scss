@@ -1,0 +1,349 @@
+.banner {
+    @include mob {
+        padding: 0 20px;
+    }
+
+    &__form {
+        @extend %row;
+
+        &__label {
+            width: 50px;
+            height: 50px;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            font-size: 19px;
+            @include bac($color-white);
+            @extend %middle;
+        }
+
+        &__input {
+            min-width: 200px;
+            border-color: transparent;
+            padding-left: 10px;
+            font-size: 19px;
+        }
+
+        &__submit {
+            font-size: 17px;
+            font-weight: bold;
+            color: $color-white;
+            background-color: $color-primary;
+            border-color: transparent;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            @extend %middle;
+
+            @include mob {
+                display: none;
+            }
+
+            &--mob {
+                width: 50px;
+                min-width: 50px;
+                height: 50px;
+                display: none;
+                border-radius: 15px;
+
+                >i {
+                    color: $color-white;
+                }
+
+                @include mob {
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+.filter {
+    @extend %row;
+    align-items: start;
+    margin-top: 20px;
+
+    @include mob {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    >h2 {
+        margin: 20px 20px 20px 0;
+    }
+
+    &__container {
+        width: 60%;
+        @extend %row;
+        flex-wrap: wrap;
+
+        @include mob {
+            width: 100%;
+        }
+
+        &__element {
+            height: 48px;
+            @extend %row;
+            align-items: center;
+            font-size: 19px;
+            font-weight: bold;
+            border: solid #F2F2F2;
+            border-left: none;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            padding-right: 20px;
+            margin: 10px 20px 10px 20px;
+
+            &:hover {
+                background-color: $color-secondary;
+
+                >span {
+                    color: $color-primary;
+                }
+            }
+
+            >i {
+                width: 47px;
+                min-width: 47px;
+                height: 47px;
+                @extend %middle;
+                font-size: 19px;
+                color: $color-primary;
+                background-color: $color-secondary;
+                border-radius: 30px;
+                position: relative;
+                right: 24px;
+            }
+        }
+    }
+}
+
+.info {
+    @extend %row;
+    align-items: center;
+    font-weight: 300;
+
+    @include mob {
+        padding: 0 20px;
+    }
+
+    >i {
+        width: 30px;
+        min-width: 30px;
+        height: 30px;
+        @extend %middle;
+        font-size: 13px;
+        color: $color-primary;
+        border: solid #F2F2F2;
+        border-radius: 30px;
+        margin-right: 10px;
+    }
+}
+
+.lodgings {
+    @extend %row;
+    justify-content: space-between;
+
+    @include tab {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    h3,
+    p {
+        margin: 0;
+    }
+
+    &__left {
+        flex: 2;
+        border-radius: 20px;
+        padding: 20px;
+        margin-right: 50px;
+        @include bac($color-white);
+
+        @include tab {
+            width: 100%;
+            margin-top: 20px;
+            margin-right: 0;
+        }
+
+        &__content {
+            @extend %row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            @include mob {
+                flex-direction: column;
+            }
+
+            &__card {
+                width: 30%;
+                height: 200px;
+                @extend %column;
+                font-size: 14px;
+                background-color: $color-white;
+                border-radius: 20px;
+                padding: 5px;
+                box-shadow: 8px 8px 10px #D6D6D6;
+                margin: 7px;
+
+                @include mob {
+                    width: 100%;
+                    margin: 10px 0;
+                }
+
+                >img {
+                    @extend %w-100;
+                    height: 60%;
+                    border-top-right-radius: 20px;
+                    border-top-left-radius: 20px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        &__btn {
+            font-size: 19px;
+            font-weight: bold;
+            text-decoration: underline;
+            border: none;
+            margin-top: 50px;
+        }
+    }
+
+    &__right {
+        flex: 1;
+        border-radius: 20px;
+        padding: 20px;
+        @include bac($color-white);
+
+        @include tab {
+            width: 100%;
+        }
+
+        &__top {
+            @extend %row;
+            justify-content: space-between;
+            align-items: center;
+
+            >i {
+                font-size: 22px;
+            }
+        }
+
+        &__content {
+            @extend %column;
+
+            @include tab {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            @include mob {
+                flex-direction: column;
+            }
+
+            &__card {
+                @extend %w-100;
+                height: 150px;
+                @extend %row;
+                font-size: 14px;
+                background-color: $color-white;
+                border-radius: 20px;
+                padding: 5px;
+                margin: 10px 0px;
+
+                @include tab {
+                    width: 32%;
+                }
+
+                @include mob {
+                    width: 100%;
+                }
+
+                >img {
+                    width: 50%;
+                    height: 100%;
+                    border-top-left-radius: 20px;
+                    border-bottom-left-radius: 20px;
+                }
+
+                >div {
+                    width: 50%;
+                    @extend %column;
+                    justify-content: space-between;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+.activities {
+    @extend %w-100;
+    @extend %column;
+    margin-top: 20px;
+
+    @include tab {
+        padding: 0 20px;
+    }
+
+    &__container {
+        @extend %w-100;
+        display: grid;
+        grid-template-columns: repeat(4, 24.1%);
+        grid-template-rows: repeat(2, 250px);
+        grid-template-areas:
+            "content1 content2 content4 content5"
+            "content1 content3 content4 content6";
+        grid-gap: 20px;
+
+        @include tab {
+            grid-template-columns: repeat(2, 49%);
+            grid-template-rows: repeat(3, 250px);
+            grid-template-areas:
+                "content1 content4"
+                "content2 content5"
+                "content3 content6";
+        }
+
+        @include mob {
+            grid-template-columns: repeat(1, 100%);
+            grid-template-rows: repeat(6, 250px);
+            grid-template-areas:
+                "content1"
+                "content2"
+                "content3"
+                "content4"
+                "content5"
+                "content6";
+        }
+
+        &__card {
+            @extend %w-100;
+            height: 100%;
+            @extend %column;
+            border-radius: 20px;
+            box-shadow: 8px 8px 10px #F2F2F2;
+
+            >img {
+                @extend %w-100;
+                height: 80%;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+            }
+
+            >h3 {
+                margin: 15px;
+            }
+
+            &--big {
+                >img {
+                    height: 90%;
+
+                    @include mob {
+                        height: 80%;
+                    }
+                }
+            }
+        }
+    }
+}

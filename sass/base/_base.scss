@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.container {
+    @extend %w-100;
+    @extend %column;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: raleway, serif;
+    text-decoration: none;
+    color: #000;
+    object-fit: cover;
+}
+
+main {
+    width: 90%;
+    @extend %column;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+.notation {
+    @extend %row;
+
+    &--blue {
+        color: $color-primary;
+    }
+
+    &--grey {
+        color: #F2F2F2;
+    }
+}
