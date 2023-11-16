@@ -1,5 +1,5 @@
 # Booki
-## Transformer une maquette en une page web responsive avec HTML, CSS et le préprocesseur CSS, SASS.
+## Transformer une maquette en une page web responsive.
 
 Pour transformer une maquette en une page web responsive, il est essentiel d'utiliser des langages de programmation comme le HTML, le CSS et SASS, le préprocesseur CSS.
 
