@@ -4,10 +4,6 @@
     align-items: center;
     justify-content: space-between;
 
-    @include mob {
-        flex-direction: column;
-    }
-
     &__logo {
         width: 100px;
         height: 50px;
@@ -18,29 +14,34 @@
         @extend %row;
         align-items: center;
 
-        @include mob {
-            width: 100%;
-        }
-
-        &__link {
+        >a {
             width: 150px;
             height: 100%;
-            @extend %middle;
-
-            @include mob {
-                width: 50%;
-                height: 50px;
-                border-bottom: solid $color-secondary;
-            }
+            @extend %center;
 
             &:hover {
                 border-top: solid $color-primary;
                 color: $color-primary;
+            }
+        }
+    }
 
-                @include mob {
+    @include mob {
+        flex-direction: column;
+
+        &__nav {
+            width: 100%;
+
+            >a {
+                width: 50%;
+                height: 50px;
+                border-bottom: solid $color-secondary;
+
+                &:hover {
                     border-top: none;
                     border-bottom: solid $color-primary;
                 }
+
             }
         }
     }

@@ -1,16 +1,16 @@
+%row {
+    display: flex;
+}
+
 %column {
     display: flex;
     flex-direction: column;
 }
 
-%middle {
+%center {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-%row {
-    display: flex;
 }
 
 %w-100 {

@@ -1,8 +1,57 @@
-# Booki
-## Transformer une maquette en une page web responsive.
+# Booki - Platform for Finding Accommodations and Activities
+This project aims to develop a website that allows users to search for accommodations and activities in the city of their choice.
 
-Pour transformer une maquette en cette page web responsive, il m'a été demandé d'utiliser des langages de programmation comme le HTML, le CSS et SASS, le préprocesseur CSS.
+## Project Content
+The project includes the following:
 
-Ces langages permettent de créer des pages web à la fois esthétiques et fonctionnelles, tout en s'adaptant à différents écrans et appareils. Le HTML sert à structurer le contenu de la page web tandis que le CSS permet de styliser la mise en page et les éléments de la page. Quant à SASS, il offre une syntaxe plus concise et permet également l'utilisation de variables, de fonctions et de mixins, ce qui facilite le processus de développement.
+- A mockup provided by the UI Designer, Loïc.
+- A basic file structure comprising :
+- index.html: Contains the main HTML structure.
+    CSS Folder: Contains one or more style.css files for design and styling.
+    Images Folder: Contains all the necessary images for the website.
+- An initial code base to start the development.
 
-En utilisant ces langages de programmation, vous pouvez créer des pages web qui répondent aux exigences de la conception responsive, ce qui signifie que la page est facilement accessible sur différents appareils tels que les ordinateurs de bureau, les tablettes et les téléphones portables. Cette méthode vous permet de concevoir des sites web professionnels et modernes qui offrent une expérience utilisateur optimale.
+## Installation
+
+1. Clone this repository locally.
+2. Ensure you have a development environment configured for HTML and CSS.
+3. Use the following npm commands to manage styles with SASS:
+
+bash
+npm install
+npm run sass
+
+## File Structure
+
+📂 root
+├── 📄 index.html
+├── 📂 images
+│ └── Contains the project's images
+├── 📂 public
+│ └── normalize.css
+│ └── style.css
+└── 📄 package.json
+
+## Tasks to Complete
+
+1. Complete the HTML:
+Add missing elements based on the mockup.
+Follow the provided technical specifications.
+
+2. Complete the CSS:
+Style the website according to the design provided by Loïc.
+Use the existing classes and structure to maintain consistency.
+
+3. Follow the Constraints:
+Keep the file structure intact.
+Optimize the code for a smooth user experience.
+
+4. Launch the Project:
+Open the index.html file in a browser to view the site.
+Edit the HTML and CSS files to complete the integration.
+
+## Knowledge Required
+
+- HTML
+- CSS
+- SASS (SCSS)

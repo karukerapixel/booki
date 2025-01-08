@@ -6,25 +6,37 @@
     margin-top: 20px;
     @include bac($color-white);
 
-    @include mob {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
-
     &__bloc {
         width: 30%;
         @extend %column;
 
-        @include mob {
-            width: 90%;
+        &__list {
+            &__item {
+                &__link {
+                    margin: 5px 0;
+
+                    @include mob {
+                        height: 100%;
+                    }
+                }
+            }
         }
+    }
 
-        &__link {
-            margin: 5px 0;
+    @include mob {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
 
-            @include mob {
-                height: 100%;
+        &__bloc {
+            width: 90%;
+
+            &__list {
+                &__item {
+                    &__link {
+                        height: 100%;
+                    }
+                }
             }
         }
     }
