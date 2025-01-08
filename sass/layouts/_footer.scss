@@ -11,6 +11,9 @@
         @extend %column;
 
         &__list {
+            @extend %column;
+            gap: 10px;
+
             &__item {
                 &__link {
                     margin: 5px 0;
