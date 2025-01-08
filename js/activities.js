@@ -2,32 +2,32 @@ const activities = [
   {
     title: "Vieux Port",
     imageUrl:
-      "../assets/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg",
+      "./assets/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg",
   },
   {
     title: "Fort de Pomègues",
     imageUrl:
-      "../assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg",
+      "./assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg",
   },
   {
     title: "Îles de Frioul",
     imageUrl:
-      "../assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg",
+      "./assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg",
   },
   {
     title: "Parc National des Calanques",
     imageUrl:
-      "../assets/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg",
+      "./assets/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg",
   },
   {
     title: "Notre-Dame-de-la-Garde",
     imageUrl:
-      "../assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg",
+      "./assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg",
   },
   {
     title: "Parc Longchamp",
     imageUrl:
-      "../assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg",
+      "./assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg",
   },
 ];
 

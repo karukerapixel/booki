@@ -4,7 +4,7 @@ const accomodations = [
     price_per_night: "25€",
     notation: "4",
     imageUrl:
-      "../assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg",
+      "./assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg",
     popular: false,
   },
   {
@@ -12,7 +12,7 @@ const accomodations = [
     price_per_night: "25",
     notation: "5",
     imageUrl:
-      "../assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg",
+      "./assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg",
     popular: false,
   },
   {
@@ -20,7 +20,7 @@ const accomodations = [
     price_per_night: "76",
     notation: "4",
     imageUrl:
-      "../assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg",
+      "./assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg",
     popular: false,
   },
   {
@@ -28,7 +28,7 @@ const accomodations = [
     price_per_night: "46",
     notation: "3",
     imageUrl:
-      "../assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg",
+      "./assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg",
     popular: false,
   },
   {
@@ -36,7 +36,7 @@ const accomodations = [
     price_per_night: "23",
     notation: "4",
     imageUrl:
-      "../assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg",
+      "./assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg",
     popular: false,
   },
   {
@@ -44,7 +44,7 @@ const accomodations = [
     price_per_night: "96",
     notation: "5",
     imageUrl:
-      "../assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg",
+      "./assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg",
     popular: false,
   },
   {
@@ -52,7 +52,7 @@ const accomodations = [
     price_per_night: "128",
     notation: "5",
     imageUrl:
-      "../assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg",
+      "./assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg",
     popular: true,
   },
   {
@@ -60,7 +60,7 @@ const accomodations = [
     price_per_night: "971",
     notation: "4",
     imageUrl:
-      "../assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg",
+      "./assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg",
     popular: true,
   },
   {
@@ -68,7 +68,7 @@ const accomodations = [
     price_per_night: "68",
     notation: "4",
     imageUrl:
-      "../assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg",
+      "./assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg",
     popular: true,
   },
 ];
