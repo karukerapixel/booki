@@ -2,9 +2,9 @@
     @extend %w-100;
     @extend %row;
     justify-content: center;
-    padding: 20px 0;
-    margin-top: 20px;
     @include bac($color-white);
+    padding: 50px 0;
+    margin-top: 20px;
 
     &__bloc {
         width: 30%;
