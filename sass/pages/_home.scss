@@ -145,6 +145,7 @@
 }
 
 .accomodations {
+    @extend %w-100;
     @extend %row;
     justify-content: space-between;
     margin: 20px 0;
@@ -225,7 +226,7 @@
             &__item {
                 @extend %w-100;
                 height: 150px;
-                
+
                 >a {
                     @extend %w-100;
                     height: 100%;
@@ -235,14 +236,14 @@
                     border-radius: 20px;
                     padding: 5px;
                     margin: 10px 0px;
-                    
+
                     >img {
                         width: 50%;
                         height: 100%;
                         border-top-left-radius: 20px;
                         border-bottom-left-radius: 20px;
                     }
-    
+
                     >div {
                         width: 50%;
                         @extend %column;
