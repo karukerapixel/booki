@@ -16,11 +16,10 @@ The project includes the following:
 1. Clone this repository locally.
 2. Ensure you have a development environment configured for HTML and CSS.
 3. Use the following npm commands to manage styles with SASS:
-
-```bash
-npm install
-npm run sass
-```
+   ```bash
+    npm install
+    npm run sass
+   ```
 
 ## File Structure
 
