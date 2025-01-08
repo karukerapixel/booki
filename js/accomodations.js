@@ -107,7 +107,7 @@ const createAccomodationCard = ({
   // Create image element
   const itemImg = document.createElement("img");
   itemImg.src = imageUrl;
-  itemImg.alt = `cover of ${title}`;
+  itemImg.alt = `${title}`;
 
   // Create the main container
   const itemContent = document.createElement("div");
@@ -118,7 +118,7 @@ const createAccomodationCard = ({
   itemTitle.style.textTransform = "capitalize";
 
   const itemPrice = document.createElement("p");
-  itemPrice.textContent = `Night starting from ${price_per_night}€`;
+  itemPrice.textContent = `Nuit à partir de ${price_per_night}€`;
 
   // Create stars
   const stars = createStars(notation);
