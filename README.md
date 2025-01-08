@@ -25,8 +25,11 @@ npm run sass
 
 📂 root
 ├── 📄 index.html
-├── 📂 images
-│ └── Contains the project's images
+├── 📂 assets
+│ └── it contains the project's images
+├── 📂 js
+│ └── accomodations.js
+│ └── activities.js
 ├── 📂 public
 │ └── normalize.css
 │ └── style.css
@@ -55,3 +58,4 @@ Edit the HTML and CSS files to complete the integration.
 - HTML
 - CSS
 - SASS (SCSS)
+- JS
