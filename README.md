@@ -11,20 +11,20 @@ Booki is a platform that allows users to search for accommodations and activitie
 ## Installation
 
 1. **Clone the repository** to your local machine:
-   ```
+   ```bash
    git clone https://github.com/karukerapixel/booki
    ```
 3. **Navigate** to the project directory:
-   ```
+   ```bash
    cd booki
    ```
 4. **Install dependencies**: Make sure you have Node.js installed. Then, run the following command to install the required packages:
-   ```
+   ```bash
    npm install
    ```
    
 6. **Compile SASS files**: After installation, use the following command to compile your SASS styles:
-   ```
+   ```bash
    npm run sass
    ```
 
