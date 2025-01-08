@@ -17,12 +17,14 @@ The project includes the following:
 2. Ensure you have a development environment configured for HTML and CSS.
 3. Use the following npm commands to manage styles with SASS:
 
-bash
+```bash
 npm install
 npm run sass
+```
 
 ## File Structure
 
+```
 📂 root
 ├── 📄 index.html
 ├── 📂 assets
@@ -34,6 +36,7 @@ npm run sass
 │ └── normalize.css
 │ └── style.css
 └── 📄 package.json
+```
 
 ## Tasks to Complete
 
@@ -58,4 +61,4 @@ Edit the HTML and CSS files to complete the integration.
 - HTML
 - CSS
 - SASS (SCSS)
-- JS
+- JS (ES6+)
