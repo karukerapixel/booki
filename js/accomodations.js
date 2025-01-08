@@ -1,7 +1,7 @@
 const accomodations = [
   {
     title: "auberge la cannebière",
-    price_per_night: "25€",
+    price_per_night: "25",
     notation: "4",
     imageUrl:
       "./assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg",
