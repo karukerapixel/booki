@@ -57,7 +57,7 @@ const accomodations = [
   },
   {
     title: "au coeur de l'eau \n chambre d'hôtes",
-    price_per_night: "971",
+    price_per_night: "91",
     notation: "4",
     imageUrl:
       "./assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg",
